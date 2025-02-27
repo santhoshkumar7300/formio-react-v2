@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/formio/react-formio#readme",
   "dependencies": {
+    "@formio/js": "github:santhoshkumar7300/formio",
     "babel-polyfill": "^6.26.0",
     "core-js": "^3.9.1",
     "eventemitter2": "^6.4.4",
@@ -56,7 +57,6 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-mocha": "^8.1.0",
     "eslint-plugin-react": "^7.22.0",
-    "formiojs": "^4.12.7",
     "jsdom": "^16.5.1",
     "karma": "^6.2.0",
     "karma-chrome-launcher": "^3.1.0",
@@ -75,7 +75,6 @@
     "lib"
   ],
   "peerDependencies": {
-    "formiojs": "^4.12.4-rc.2",
     "react": "^15.3.0 || ^16.0.0 || ^17.0.0",
     "react-dom": "^15.3.0 || ^16.0.0 || ^17.0.0"
   }
